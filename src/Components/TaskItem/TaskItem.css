@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .formulario {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  select {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .precioSeguro {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .formulario .boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  .completed-text {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .card{
+
+   background-color: #ffe6cc;
+
+  }
+
+  .card-body{
+
+    background-color: #ffcc99;
+
+  }
+
+  .btn{
+
+    border: 1px outset #fff;
+
+  }
+
+  .btnComplete{
+
+    background-color: #ffa64d;
+
+  }
+
+  .btnEdit{
+
+    background-color: #ffb366;
+
+  }
+
+  .btnDelete{
+
+    background-color: #804000;
+    color: #fff;
+
+  }
+
+  .btnComplete:hover{
+
+    background-color: #e67300;
+    border: 1px inset #fff;
+    text-decoration: none;
+
+  }
+
+  .btnEdit:hover{
+
+    background-color: #ff9933;
+    border: 1px inset #fff;
+    text-decoration: none;
+
+  }
+
+  .btnDelete:hover{
+
+    background-color: #4d2600;
+    color: #fff;
+    border: 1px inset #fff;
+    text-decoration: none;
+
+  }
